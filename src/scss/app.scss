@@ -1,0 +1,77 @@
+@import "./reset";
+@import "./variables";
+@import url('https://fonts.googleapis.com/css2?family=Fondamento:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Fondamento:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Fondamento:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Fondamento:ital@0;1&family=Nothing+You+Could+Do&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../assets/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background: linear-gradient(90deg, rgba(66,62,62,0.9948354341736695) 5%, rgba(97,74,45,1) 17%, rgba(110,93,59,1) 35%, rgba(14,55,64,1) 80%);
+  padding: 2rem;
+  font-family: "Fondamento", cursive;
+}
+
+.container {
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 1rem;
+
+
+}
+
+.cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0.5rem;
+  box-shadow: inset 1px 0px 89px 14px rgb(16, 62, 75);
+    border: 10px inset #08403E;
+background: #9c5101;
+width: 30rem;
+position: relative;
+}
+
+.question {
+  padding: 0.7rem;
+  font-size: 1rem;
+  color:rgb(53, 147, 147);
+  display: flex;
+gap: 1rem;
+align-items: center;
+font-family: "Edu AU VIC WA NT Hand", cursive;
+}
+
+.iconSpan {
+  position: absolute;
+  right: 0;
+
+}
+
+.answer {
+  color:rgb(123, 195, 197);
+  text-shadow: 2px 2px 2px black;
+  text-align: center;
+  font-size: 1rem;
+  justify-content: center;
+  width: 40vh;
+  font-family: "East Sea Dokdo", sans-serif;
+  font-size: 1.5rem;
+}
